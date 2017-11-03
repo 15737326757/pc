@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div id="wrap">
+			<header class="headerMain">
+				<section class="wrap">
+					<div class="logo">
+						<a href="javascript:;">
+							<img src="img/logo.png"/>
+						</a>
+					</div>
+					<ul class="nav">
+						<li class="active">
+							<a href="javascript:;">首页</a>
+						</li>
+						<li>
+							<a href="javascript:;">抽象派</a>
+						</li>
+						<li>
+							<a href="javascript:;">人物油画</a>
+						</li>
+						<li>
+							<a href="javascript:;">绽放</a>
+						</li>
+						<li>
+							<a href="javascript:;">植物景观</a>
+						</li>
+					</ul>
+				</section>
+			</header>
+			<section class="content">
+				<ul class="list">
+					<li class="home1">
+						<img src="img/wenzi.png"/>
+					</li>
+					<li class="home2">
+						<div class="left">
+							<ul class="shop">
+								<li>
+									<img src="img/img1.png"/>
+									<p>望<br />
+									30*40cm / 40*50cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+								<li>
+									<img src="img/img2.png"/>
+									<p>听<br />
+									30*40cm / 40*50cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+								<li>
+									<img src="img/img3.png"/>
+									<p>悟<br />
+									30*40cm / 40*50cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="right">
+							<h1>观止</h1>
+							<p>价格：99元起<br />
+							艺术家：吉祥物语</p>
+							<a href="javascript:;">酷站首页</a>
+						</div>
+						<div class="bg">
+							<img src="img/sc2.png"/>
+						</div>
+					</li>
+					<li class="home3">
+						<div class="left">
+							<ul class="shop">
+								<li>
+									<img src="img/img4.png"/>
+									<p>Love<br />
+									50*60cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+								<li>
+									<img src="img/img5.png"/>
+									<p>Filial and eros aw<br />
+									50*60cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+								<li>
+									<img src="img/img6.png"/>
+									<p>Good Time<br />
+									50*60cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="right">
+							<h1>KIDS</h1>
+							<p>价格：249元<br />
+							艺术家：Chow-Lee</p>
+							<a href="javascript:;">酷站首页</a>
+						</div>
+						<div class="bg">
+							<img src="img/sc3.png"/>
+						</div>
+					</li>
+					<li class="home4">
+						<div class="left">
+							<ul class="shop">
+								<li>
+									<img src="img/img7.png"/>
+									<p>Love<br />
+									50*60cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+								<li>
+									<img src="img/img8.png"/>
+									<p>Filial and eros aw<br />
+									50*60cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+								<li>
+									<img src="img/img9.png"/>
+									<p>Good Time<br />
+									50*60cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="right">
+							<h1>绽放</h1>
+							<p>价格：269元<br />
+							艺术家：北邦</p>
+							<a href="javascript:;">酷站首页</a>
+						</div>
+						<div class="bg">
+							<img src="img/sc4.png"/>
+						</div>
+					</li>
+					<li class="home5">
+						<div class="left">
+							<ul class="shop">
+								<li>
+									<img src="img/img10.png"/>
+									<p>Love<br />
+									50*60cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+								<li>
+									<img src="img/img11.png"/>
+									<p>Filial and eros aw<br />
+									50*60cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+								<li>
+									<img src="img/img12.png"/>
+									<p>Good Time<br />
+									50*60cm
+									</p>
+									<a href="javascript:;"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="right">
+							<h1>沉睡的森林</h1>
+							<p>价格：249元<br />
+							艺术家：赵娜</p>
+							<a href="javascript:;">酷站首页</a>
+						</div>
+						<div class="bg">
+							<img src="img/sc5.png"/>
+						</div>
+					</li>
+				</ul>
+				<div class="sidenav">
+						<ul>
+							<li class="active"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+			</section>
+		</div>
+	</body>
+	<script src="jquery-2.1.3.min.js"></script>
+	<script type="text/javascript">
+		/*window.onload = function(){
+			var navs = document.querySelector("#wrap .headerMain .nav");
+			var liNodes = navs.querySelectorAll(".nav > li");
+			var sidenav = document.querySelector("#wrap .content .sidenav");
+			var sidelis = sidenav.querySelectorAll(".sidenav ul > li");
+			var list = document.querySelector("#wrap .content .list");
+			var header = document.querySelector("#wrap .headerMain");
+			var content = document.querySelector("#wrap .content");
+			var cliNodes = document.querySelectorAll("#wrap .content .list > li")
+			//出入场动画
+			var oldIndex = 0;
+			var Admission = [
+			{
+				out:function(){
+					var img = document.querySelector("#wrap .content .home1 img");
+					img.style.transform = "translateY(300px) ";
+					img.style.opacity = "0";
+				},
+				in:function(){
+					var img = document.querySelector("#wrap .content .home1 img");
+					img.style.transform = "translateY(0) ";
+					img.style.opacity = "1";
+				}
+			},
+			{
+				out:function(){
+					var p1 = document.querySelectorAll("#wrap .content .home2 .left ul > li")[0];
+					var p2 = document.querySelectorAll("#wrap .content .home2 .left ul > li")[1];
+					var p3 = document.querySelectorAll("#wrap .content .home2 .left ul > li")[2];
+					p1.style.transform
+				}
+			},
+			]
+			Admission[0]["out"]();
+			setTimeout(function(){
+				Admission[0]["in"]();
+			},2000)
+			//滚轮
+			var now = 0;
+			var timer = 0;
+			content.onmousewheel = function(ev){
+				clearInterval(timer);
+				timer = setTimeout(function(){
+					fn(ev);
+				},200)
+			};
+			if(content.addEventListener){
+				content.addEventListener("DOMMouseScroll",function(ev){
+					clearInterval(timer);
+					timer = setTimeout(function(){
+						fn(ev)
+					},200)
+				});
+			}
+			function fn(ev){
+				ev=ev ||event;
+				var flag = "";
+				if(ev.wheelDelta){
+					flag = ev.wheelDelta>0?"top":"down";
+				}else if(ev.detail){
+					flag = ev.detail<0?"top":"down";
+				}
+				switch (flag){
+					case "top":
+						if(now > 0){
+							now --;
+						}
+						move(now);
+						break;
+					case "down":
+						if(now < 4){
+							now ++;
+						}
+						move(now);
+						break;
+				}
+				if(ev.preventDefault){
+					ev.preventDefault();
+				}
+				return false;
+			}
+			//在视口发生变化时可保证页面不乱
+			window.onresize = function(){
+				contentBind();
+				list.style.top = -now *(document.documentElement.clientHeight - header.offsetHeight) + "px";
+			}
+			contentBind();
+			function contentBind(){
+				content.style.height = document.documentElement.clientHeight - header.offsetHeight+"px";
+				for(var i=0;i<cliNodes.length;i++){
+					cliNodes[i].style.height = document.documentElement.clientHeight - header.offsetHeight+"px";
+				}
+			}
+			
+			//头部逻辑
+			headbind();
+			function headbind(){
+				for(var i=0;i<liNodes.length;i++){
+					liNodes[i].index = i;
+					sidelis[i].index = i;
+					sidelis[i].onclick = liNodes[i].onclick = function(){
+						move(this.index);
+						now = this.index;
+					}
+				}
+			}
+			function move(index){
+				for(var i=0;i<liNodes.length;i++){
+					sidelis[i].className = "";
+					liNodes[i].className = "";
+				}
+				sidelis[index].className="active";
+				liNodes[index].className = "active";
+				list.style.top = -index*(document.documentElement.clientHeight - header.offsetHeight) + "px";
+				//入场动画
+				Admission[index]["in"]();
+				//上一屏出场
+				Admission[oldIndex]["out"]();
+				oldIndex = index;
+			}
+		}*/
+		
+		
+		
+		$(function(){
+			$linodes = $("#wrap .headerMain .wrap .nav > li");
+			$content = $("#wrap .content");
+			content = document.querySelector("#wrap .content");
+			$header = $("#wrap .headerMain");
+			$list = $("#wrap .content .list > li");
+			$sidelist = $("#wrap .content .sidenav ul > li");
+			
+			//出入场动画
+			var oldIndex = 0;
+			var Admission = [
+			{
+				out:function(){
+					var $img = $("#wrap .content .home1 img");
+					var $right = $("#wrap .content .home1 .right");
+					$img.animate({opacity:"0"})
+				},
+				in:function(){
+					var $img = $("#wrap .content .home1 img");
+					window.setTimeout(function(){
+						$img.animate({opacity:"1"});
+					},500)
+				}
+			},
+			{
+				out:function(){
+					var $p1 = $("#wrap .content .home2 .left li:eq(0)");
+					var $p2 = $("#wrap .content .home2 .left li:eq(1)");
+					var $p3 = $("#wrap .content .home2 .left li:eq(2)");
+					var $right = $("#wrap .content .home2 .right");
+					$p1.animate({top:"600px"});
+					$p2.animate({top:"600px"});
+					$p3.animate({top:"600px"});
+					$right.animate({right:"-600px"})					
+				},
+				in:function(){
+					var $p1 = $("#wrap .content .home2 .left li:eq(0)");
+					var $p2 = $("#wrap .content .home2 .left li:eq(1)");
+					var $p3 = $("#wrap .content .home2 .left li:eq(2)");
+					var $right = $("#wrap .content .home2 .right");
+					$p1.animate({top:"0"});
+					window.setTimeout(function(){
+						window.setTimeout(function(){
+							$p2.animate({top:"0"});
+						},100)
+						window.setTimeout(function(){
+							$p3.animate({top:"0"});
+						},200)
+						window.setTimeout(function(){
+							$right.animate({right:"3%"})
+						},500)
+					},500)
+				}
+			},
+			{
+				out:function(){
+					var $p1 = $("#wrap .content .home3 .left li:eq(0)");
+					var $p2 = $("#wrap .content .home3 .left li:eq(1)");
+					var $p3 = $("#wrap .content .home3 .left li:eq(2)");
+					var $right = $("#wrap .content .home3 .right");
+					$p1.animate({left:"0"});
+					$p2.animate({left:"-279px"});
+					$p3.animate({left:"-558"});
+					$right.animate({opacity:"0"})
+				},
+				in:function(){
+					var $p1 = $("#wrap .content .home3 .left li:eq(0)");
+					var $p2 = $("#wrap .content .home3 .left li:eq(1)");
+					var $p3 = $("#wrap .content .home3 .left li:eq(2)");
+					var $right = $("#wrap .content .home3 .right");
+					window.setTimeout(function(){
+						$p1.animate({left:"0"});
+						window.setTimeout(function(){
+							$p2.animate({left:"0"});
+						},600)
+						window.setTimeout(function(){
+							$p3.animate({left:"0"});
+						},300)
+						window.setTimeout(function(){
+							$right.animate({opacity:"1"})
+						},500)
+					},500)
+					
+				}
+			},
+			{
+				out:function(){
+					var $p1 = $("#wrap .content .home4 .left li:eq(0)");
+					var $p2 = $("#wrap .content .home4 .left li:eq(1)");
+					var $p3 = $("#wrap .content .home4 .left li:eq(2)");
+					var $right = $("#wrap .content .home4 .right");
+					$p1.animate({left:"279px",top:"500px"});
+					$p2.animate({left:"0",top:"500px"});
+					$p3.animate({left:"-279px",top:"500px"});
+					$right.animate({top:"-700px"})
+				},
+				in:function(){
+					var $p1 = $("#wrap .content .home4 .left li:eq(0)");
+					var $p2 = $("#wrap .content .home4 .left li:eq(1)");
+					var $p3 = $("#wrap .content .home4 .left li:eq(2)");
+					var $right = $("#wrap .content .home4 .right");
+					$p1.animate({left:"0",top:"0px"});
+					window.setTimeout(function(){
+						window.setTimeout(function(){
+							$p2.animate({left:"0",top:"0px"});
+						},100)
+						window.setTimeout(function(){
+							$p3.animate({left:"0",top:"0px"});
+						},200)
+						window.setTimeout(function(){
+							$right.animate({top:"10%"})
+						},500)
+					})
+				}
+			},
+			{
+				out:function(){
+					var $p1 = $("#wrap .content .home5 .left li:eq(0)");
+					var $p2 = $("#wrap .content .home5 .left li:eq(1)");
+					var $p3 = $("#wrap .content .home5 .left li:eq(2)");
+					var $right = $("#wrap .content .home5 .right");
+					$p1.animate({left:"-279px",top:"-600px"});
+					$p2.animate({left:"-279px",top:"-600px"});
+					$p3.animate({left:"-279px",top:"-600px"});
+					$right.animate({top:"100%"})
+				},
+				in:function(){
+					var $p1 = $("#wrap .content .home5 .left li:eq(0)");
+					var $p2 = $("#wrap .content .home5 .left li:eq(1)");
+					var $p3 = $("#wrap .content .home5 .left li:eq(2)");
+					var $right = $("#wrap .content .home5 .right");
+					$p1.animate({left:"0",top:"0px"});
+					window.setTimeout(function(){
+						$p2.animate({left:"0",top:"0px"});
+					},200)
+					window.setTimeout(function(){
+						$p3.animate({left:"0",top:"0px"});
+					},400)
+					window.setTimeout(function(){
+						$right.animate({top:"10%"})
+					},500)
+				}
+			}
+			]
+			for(var i=1;i<Admission.length;i++){
+				Admission[i]["out"]();
+			}
+			//滚轮逻辑
+			var now =0;
+			var timer =0;
+			content.onmousewheel=function(ev){
+					clearTimeout(timer);
+					timer  = setTimeout(function(){
+						fn(ev);
+					},200);
+			}
+			if(content.addEventListener){
+				content.addEventListener("DOMMouseScroll",function(ev){
+					clearTimeout(timer);
+					timer  = setTimeout(function(){
+						fn(ev);
+					},200)
+				});
+			}
+			
+			function fn(ev){
+				ev =ev||event;
+				var flag ="";
+				if(ev.wheelDelta){
+					flag =ev.wheelDelta>0?"up":"down";
+				}else if(ev.detail){
+					flag =ev.detail<0?"up":"down";
+				}
+				
+				if( (now===0&&flag==="up")   || (now===($linodes.length-1)&&flag==="down") ){
+					return;
+				}
+				
+				switch (flag){
+					case "up":
+						if(now>0){
+							now -- ;
+						}
+						move(now);
+						break;
+					case "down":
+						if(now<$linodes.length-1){
+							now++;
+						}
+						move(now);
+						break;
+				}
+				
+				
+				
+				if(ev.preventDefault){
+					ev.preventDefault();
+				}
+				
+				return false;
+			}
+			
+			//头部逻辑
+			headbind();
+			function headbind(){
+				$.each($linodes,function(i){
+					$linodes[i].index = i;
+					$($linodes[i]).on("click",function(){
+						oldIndex = now;
+						move(this.index);
+						now = this.index;
+						
+					});
+				});
+				$.each($sidelist,function(i){
+					$sidelist[i].index = i;
+					$($sidelist).on("click",function(){
+						oldIndex = now;
+						move(this.index);
+						now = this.index;
+						
+					})
+				})
+			}
+			function move(index){
+				$linodes.each(function(){
+					$linodes.removeClass();
+				})
+				$sidelist.each(function(){
+					$sidelist.removeClass();
+				})
+				$linodes[index].className = "active";
+				$sidelist[index].className = "active";
+				$list.css("top",-index*($(window).height() - $header.height()));
+				Admission[index]["in"]();
+				Admission[oldIndex]["out"]();
+				oldIndex = index;
+			}
+			//内容区高度
+			contentbind();
+			function contentbind(){
+				var contentHeigth = $(window).height() - $header.height();
+				$content.height(contentHeigth);
+				for(var i=0;i<$linodes.length;i++){
+					$list.height(contentHeigth);
+				}
+			}
+			//视口发生变化可以保证页面不乱
+			window.onresize = function(){
+				contentbind();
+				$list.css("top",-now*($(window).height() - $header.height()));
+			}
+			
+			
+		})
+	</script>
+</html>

@@ -1,0 +1,365 @@
+@import "common/reset";
+@import "common/common";
+
+#wrap{
+    position: relative;
+    .headerMain{
+        width: 100%;
+        height: 60px;
+        background: rgba(0,0,0,.8);
+        .wrap{
+            width: 980px;
+            height: 60px;
+            margin: 0 auto;
+            .logo{
+                float: left;
+                margin: 16px 20px 0 0;
+                img{
+                    display: block;
+                }
+            }
+            .nav{
+                width: 450px;
+                height: 60px;
+                float: right;
+                li{
+                    float: left;
+                    width: 90px;
+                    height: 60px;
+                    text-align: center;
+                    a{
+                        color: white;
+                        line-height: 60px;
+                    }
+                    &.active{
+                        background: #FFCC00;
+                        a{
+                            color: #675200;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    .content{
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        overflow: hidden;
+        .sidenav{
+            position: fixed;
+            top: 50%;
+            right: 1%;
+            z-index: 3;
+            li{
+                width: 10px;
+                height: 10px;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-top: 10px;
+                cursor: pointer;
+                &.active{
+                    background: black;
+                    cursor: default;
+                }
+            }
+        }
+        .list{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            li{
+                position: relative;
+                top: 0;
+                background-position: 50% 50% !important;
+                overflow: hidden;
+                transition: 1s top;
+            }
+            .home1{
+                width: 100%;
+                height: 100%;
+                background: url(../img/s1.jpg)no-repeat;
+                img{
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-left: -545px;
+                    margin-top: -280px;
+                    transition: 10s transform ,opacity;
+                }
+            }
+            .home2{
+                width: 100%;
+                background: url(../img/s2.jpg);
+                .left{
+                    width: 837px;
+                    height: 437px;
+                    margin-left: 3%;
+                    margin-top: 3%;
+                    .shop{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                            float: left;
+                            margin-left: 20px;
+                            img{
+                                display: block;
+                            }
+                            p{
+                                font-size: 18px;
+                                text-align: center;
+                                margin: 20px 0;
+                            }
+                            a{
+                                position: relative;
+                                left: 70px;
+                                display: block;
+                                width: 98px;
+                                height: 36px;
+                                background: url(../img/buy.jpg);
+                            }
+                        }
+                    }
+                }
+                .right{
+                    position: absolute;
+                    top: 10%;
+                    right: 3%;
+                    border-right: 2px solid;
+                    text-align: right;
+                    padding-right: 10px;
+                    h1{
+                        font-size: 34px;
+                        color: #333;
+                        font-weight: 100;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: #333;
+                        line-height: 1.5em;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                    }
+                    a{
+                        color: #333;
+                        &:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .bg{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+            .home3{
+                width: 100%;
+                background: url(../img/s3.jpg);
+                .left{
+                    width: 837px;
+                    height: 437px;
+                    margin-left: 3%;
+                    margin-top: 3%;
+                    .shop{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                            float: left;
+                            margin-left: 20px;
+                            img{
+                                display: block;
+                            }
+                            p{
+                                font-size: 18px;
+                                text-align: center;
+                                margin: 20px 0;
+                            }
+                            a{
+                                position: relative;
+                                left: 70px;
+                                display: block;
+                                width: 98px;
+                                height: 36px;
+                                background: url(../img/buy.jpg);
+                            }
+                        }
+                    }
+                }
+                .right{
+                    position: absolute;
+                    top: 10%;
+                    right: 3%;
+                    border-right: 2px solid;
+                    text-align: right;
+                    padding-right: 10px;
+                    h1{
+                        font-size: 34px;
+                        color: #333;
+                        font-weight: 100;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: #333;
+                        line-height: 1.5em;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                    }
+                    a{
+                        color: #333;
+                        &:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .bg{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+            .home4{
+                width: 100%;
+                background: url(../img/s4.jpg);
+                .left{
+                    width: 990px;
+                    height: 437px;
+                    margin-left: 3%;
+                    margin-top: 3%;
+                    .shop{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                            float: left;
+                            margin-left: 20px;
+                            img{
+                                display: block;
+                            }
+                            p{
+                                font-size: 18px;
+                                text-align: center;
+                                margin: 20px 0;
+                            }
+                            a{
+                                position: relative;
+                                left: 70px;
+                                display: block;
+                                width: 98px;
+                                height: 36px;
+                                background: url(../img/buy.jpg);
+                            }
+                        }
+                    }
+                }
+                .right{
+                    position: absolute;
+                    top: 10%;
+                    right: 3%;
+                    border-right: 2px solid;
+                    text-align: right;
+                    padding-right: 10px;
+                    h1{
+                        font-size: 34px;
+                        color: #333;
+                        font-weight: 100;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: #333;
+                        line-height: 1.5em;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                    }
+                    a{
+                        color: #333;
+                        &:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .bg{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+            .home5{
+                width: 100%;
+                background: url(../img/s5.jpg);
+                .left{
+                    width: 990px;
+                    height: 437px;
+                    margin-left: 3%;
+                    margin-top: 3%;
+                    .shop{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                            float: left;
+                            margin-left: 20px;
+                            img{
+                                display: block;
+                            }
+                            p{
+                                font-size: 18px;
+                                text-align: center;
+                                margin: 20px 0;
+                            }
+                            a{
+                                position: relative;
+                                left: 70px;
+                                display: block;
+                                width: 98px;
+                                height: 36px;
+                                background: url(../img/buy.jpg);
+                            }
+                        }
+                    }
+                }
+                .right{
+                    position: absolute;
+                    top: 10%;
+                    right: 3%;
+                    border-right: 2px solid;
+                    text-align: right;
+                    padding-right: 10px;
+                    h1{
+                        font-size: 34px;
+                        color: #333;
+                        font-weight: 100;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: #333;
+                        line-height: 1.5em;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                    }
+                    a{
+                        color: #333;
+                        &:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .bg{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+    
+}
